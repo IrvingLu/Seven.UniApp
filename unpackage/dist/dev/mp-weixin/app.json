@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/publish/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/publish/index"
+      },
+      {
+        "pagePath": "pages/mine/index"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap42.json"
+}

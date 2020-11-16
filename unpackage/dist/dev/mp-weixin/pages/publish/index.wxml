@@ -1,0 +1,1 @@
+<view><view class="u-page">publish</view><u-tabbar bind:input="__e" vue-id="8fa88206-1" list="{{tabbar}}" mid-button="{{true}}" value="{{current}}" data-event-opts="{{[['^input',[['__set_model',['','current','$event',[]]]]]]}}" bind:__l="__l"></u-tabbar></view>
