@@ -63,7 +63,7 @@
 <script>
 	import {
 		tabbar
-	} from "../../common/common.js"
+	} from "../../utils/tabbar.js"
 	export default {
 		data() {
 			return {
@@ -154,6 +154,9 @@
 			}
 		},
 		onLoad() {
+			this.$request("/api/v1/userinfo/userinfo",{"openId":"12312"}).then((res)=>{
+				console.log(res)
+			})
 			this.addRandomData();
 		},
 		onReachBottom() {
@@ -165,7 +168,6 @@
 			}, 1000)
 		},
 		methods: {
-	
 			addRandomData() {
 				for (let i = 0; i < 10; i++) {
 					let index = this.$u.random(0, this.list.length - 1);

@@ -1,6 +1,11 @@
 {
   "navigationBarTitleText": "发布",
   "usingComponents": {
+    "u-table": "/node-modules/uview-ui/components/u-table/u-table",
+    "u-tr": "/node-modules/uview-ui/components/u-tr/u-tr",
+    "u-th": "/node-modules/uview-ui/components/u-th/u-th",
+    "u-td": "/node-modules/uview-ui/components/u-td/u-td",
+    "u-steps": "/node-modules/uview-ui/components/u-steps/u-steps",
     "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar"
   }
 }
