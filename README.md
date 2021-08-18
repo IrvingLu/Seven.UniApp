@@ -1,2 +1,1 @@
-# base_uniApp
-  uniapp 学习
+# uniapp基础框架
